@@ -7,8 +7,7 @@
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1 id="mainHeading">Mads Bohn</h1>
-         <h3 id="tagline">Student with a passion for coding and design</h3>
+         
          <nav>
             <ul>
                <li class="navbar"><a href="#about">About Me</a></li>
@@ -19,6 +18,10 @@
       </header>
 
       <main>
+         <div id="me">
+            <h1 id="mainHeading">Mads Bohn</h1>
+            <h3 id="tagline">Student with a passion for coding and design</h3>
+         </div>
          <div id="about">
             <article>
                <h2>About Me</h2>
@@ -34,18 +37,31 @@
          </div>
 
          <div id="education">
-            <article>
-              <h2>Education</h2> 
-              <p class="school">LaunchCode</p>
-              <p class="duration">Graduating in 2024</p>
 
-              <p class="school">St. Louis Community College, Kirkwood, MO</p>
-              <p class="duration">Associate of Arts, 2019</p>
-
-              <p class="school">Lindbergh High School, St. Louis, MO</p>
-              <p class="duration">High School Diploma, 2015</p>
-            </article>
+            <h2>Education</h2>
+               <div id="education-container">
+                     
+                  <div class="school">
+                     <h4>LaunchCode</h4>
+                     <p class="location">St. Louis, MO</p>
+                     <p class="duration">Graduating in 2024</p>
+                  </div>
+                  
+                  <div class="school">
+                     <h4>St. Louis Community College</h4>
+                     <p class="location">Kirkwood, MO</p>
+                     <p class="duration">Associate of Arts, 2019</p>
+                  </div>
+                  
+                  <div class="school">
+                     <h4>Lindbergh High School</h4>
+                     <p class="location">St. Louis, MO</p>
+                     <p class="duration">High School Diploma, 2015</p>
+                  </div>
+              
          </div>
+         </div>
+         
 
       </main>
 
