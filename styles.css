@@ -2,7 +2,6 @@
 body {
     margin: 8px;
     display: block;
-    line-height: 1;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -23,7 +22,7 @@ main {
 
 nav {
     background-color: #333;
-    height: 44px;
+    height: 47px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -72,16 +71,25 @@ nav li a:hover {
     justify-content: space-between;
 }
 
-div.school {
-    border: 2px solid #ff0000;
+.school {
     width: 200px;
     height: 300px;
     display: inline-block;
     padding: 10px;
+    text-align: center;
 }
+
+
+.school img {
+    width: 140px;
+    margin: 0 30px 20px;
+}
+
 
 .funParagraph {
     margin: 0 auto;
+    line-height: 1.7;
+    padding: 0 30px;
 }
 
 #mainHeading {
@@ -97,10 +105,6 @@ div.school {
     justify-content: space-between;
 }
 
-#name {
-    border: 2px solid red;
-}
-
 #name h3 {
     margin: 0;
 }
@@ -108,5 +112,5 @@ div.school {
 #portrait {
     height: 300px;
     width: 300px;
-    border: 2px solid red;
+    border-radius: 25px;
 }
