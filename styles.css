@@ -98,13 +98,21 @@ nav li a:hover {
 }
 
 
-.funParagraph {
+.boringParagraph {
     margin: 0 auto;
     line-height: 1.7;
     padding: 0 30px;
 }
 
+.funParagraph {
+    color: green;
+}
+
 #mainHeading {
+    color: red;
+}
+
+#myName {
     font-size: 72px;
     font-family: Courier, monospace;
     margin: 190px 0 0;
